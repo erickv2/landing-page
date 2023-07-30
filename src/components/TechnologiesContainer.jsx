@@ -12,13 +12,13 @@ const tecnologies = [
 
 const TecnologiesContainer = () => {
   return (
-    <section className="tecnologies-container">
+    <section className="technologies-container">
       <h2>Tecnologias:</h2>
-      <div className="tecnologies-grid">
+      <div className="technologies-grid">
         {tecnologies.map((tech) => (
-          <div className="tecnology-card" id={tech.id} key={tech.id}>
+          <div className="technology-card" id={tech.id} key={tech.id}>
             {tech.icon}
-            <div className='tecnology-info'>
+            <div className='technology-info'>
               <h3>{tech.name}</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur officiis ipsum quaerat iste culpa ullam illo nulla labore, et modi, id itaque maiores minus magni eaque expedita, dicta ex?</p>
             </div>
